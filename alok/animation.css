@@ -2,15 +2,15 @@
     margin: 0px;
 }
 .div1{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-image: linear-gradient(rgb(180, 98, 118) lightblue);
-    border-radius: 50%;
+    border-radius: 80%;
     position: absolute;
 
     animation-name:batch2;
     animation-duration: 5s;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-iteration-count: infinite;
 
 }
@@ -20,11 +20,23 @@
         left: 0%;
         top: 0%;
     }
-    7%{ background-color: rgb(158, 129, 35); left: 100px; top: 0%; }
+    10%{ background-color: rgb(158, 129, 35); left: 0px; top: 0px; }
 
-    16%{ background-color: rgb(34, 146, 103); left: 100px; top: 100px;}
+    20%{ background-color: rgb(34, 146, 103); left: 50px; top: 0px;}
 
-    19%{ background-color: rgb(204, 109, 156); left: 150%; top: 100px;}
+    30%{ background-color: rgb(204, 109, 156); left: 50px; top: 50px;}
 
-    24%{ left: 200px; top: 150px; }
+    40%{ background-color: gray; left: 100px; top: 50px; }
+
+    50%{ background-color: yellowgreen; left: 100px; top: 100px;}
+
+    60%{ background-color: blueviolet; left: 150px; top: 100px;}
+
+    70%{ background-color: burlywood; left: 150px; top: 150px;}
+
+    80%{ background-color: mediumslateblue; left: 200px; top: 150px;}
+
+    90%{ background-color: lightgoldenrodyellow; left: 200px; top: 200px;}
+
+    100%{ background-color: rgb(180, 98, 118); left: 250px; top: 200px;}
 }
