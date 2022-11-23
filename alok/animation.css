@@ -2,9 +2,14 @@
     margin: 0px;
 }
 .div1{
-    height: 100px;
-    width: 100px;
-    background-image: linear-gradient(rgb(180, 98, 118) lightblue);
+
+    height: 250px;
+    width: 250px;
+    background-image: url(https://images4.alphacoders.com/112/1126211.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
     border-radius: 80%;
     position: absolute;
 
