@@ -1,0 +1,30 @@
+.body{
+    margin: 0px;
+}
+.div1{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(rgb(180, 98, 118) lightblue);
+    border-radius: 50%;
+    position: absolute;
+
+    animation-name:batch2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes batch2{
+    0%{
+        left: 0%;
+        top: 0%;
+    }
+    7%{ background-color: rgb(158, 129, 35); left: 100px; top: 0%; }
+
+    16%{ background-color: rgb(34, 146, 103); left: 100px; top: 100px;}
+
+    19%{ background-color: rgb(204, 109, 156); left: 150%; top: 100px;}
+
+    24%{ left: 200px; top: 150px; }
+}
